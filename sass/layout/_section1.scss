@@ -1,0 +1,51 @@
+.section1 {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 50px;
+}
+.allbox {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1:hover {
+    background-color: rgba(155, 150, 143, 0.258);
+    transition: background-color 0.8s linear;
+  }
+}
+
+.imgss {
+  padding-left: 81px;
+  padding-top: 31px;
+}
+
+.box1 {
+  align-items: center;
+  max-width: 100%;
+  width: 233px;
+  height: 258px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.sech3 {
+  padding-top: 28px;
+  padding-bottom: 13px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+}
+.secp {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 11.72px;
+  text-align: center;
+}
